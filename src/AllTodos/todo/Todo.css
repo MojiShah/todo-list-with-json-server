@@ -1,0 +1,53 @@
+.todo {
+    width: 30%;
+    height: 3.2rem;
+    margin: 0.4rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.completed {
+    opacity: 0.2;
+    text-decoration: line-through;
+}
+
+.todo-item {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.complete-btn {
+    background-color: chocolate;
+    height: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checked-icon {
+    background-color: chocolate;
+    color: #fff;
+}
+
+.trash-btn {
+    background-color: #999;
+    height: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.trash-icon {
+    background-color: #999;
+    color: #fff;
+}
